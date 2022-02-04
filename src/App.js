@@ -1,6 +1,6 @@
 import React from 'react';
-import {Routes, Route, Link} from 'react-router-dom';
-import {Layout, Typography, Space} from 'antd';
+import {Routes, Route} from 'react-router-dom';
+import {Layout, Typography} from 'antd';
 import {Navbar, Exchanges,Cryptocurrencies,CryptoDetails,Homepage,News} from './components'
 import './App.css';
 const App = () => {
